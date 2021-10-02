@@ -54,3 +54,17 @@
     height: 100px;
     max-width: 110px;
 }
+
+.cards-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4%;
+  height: auto;
+  margin: 4%;
+}
+
+.cards-img img {
+ width: 100%;
+ border-radius: 8px;
+ box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
